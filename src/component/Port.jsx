@@ -1,7 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt'
-import ImgPo from"../image/proke.png"
 import Cpy from '../image/cpy.png'
 import "../image/im.css"
 
