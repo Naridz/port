@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt'
-import imgPo from'../image/proke.png'
+import imgPo from"../image/proke.png"
 import cPy from '../image/cpy.png'
 
 
@@ -12,7 +12,7 @@ const Port = () => {
       <div className='grid grid-cols-3 max-[640px]:grid-cols-1 justify-items-center'>
         <div className='mt-14'>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-          <img src={imgPo}
+          <img src={imgPo} alt=" "
            width={300} height={300} className='rounded-2xl border-black border-2'/>
           </Tilt>
           <a href='https://nextjs-p-nine.vercel.app/' target='_blank'>
@@ -21,7 +21,7 @@ const Port = () => {
         </div>
         <div className='mt-14'>
           <Tilt scale={1} transitionSpeed={2500} tiltReverse={true}>
-          <img src={cPy}
+          <img src={cPy} alt=" "
            width={275} height={250} className='rounded-2xl border-black border-2'/>
           </Tilt>
           <p className='my-2.5 font-bold italic inline'>Certificate</p>
