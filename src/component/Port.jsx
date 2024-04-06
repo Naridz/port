@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt'
 import ImgPo from"../image/proke.png"
 import Cpy from '../image/cpy.png'
+import "../image/im.css"
 
 
 const Port = () => {
@@ -12,8 +13,9 @@ const Port = () => {
       <div className='grid grid-cols-3 max-[640px]:grid-cols-1 justify-items-center'>
         <div className='mt-14'>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-          <img src={ImgPo} alt=" "
-           width={300} height={300} className='rounded-2xl border-black border-2'/>
+            <div className='rounded-2xl border-black border-2 imgpo w-[300px] h-[200px] bg-cover bg-center'></div>
+          {/* <img src={ImgPo} alt=" "
+           width={300} height={300} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://nextjs-p-nine.vercel.app/' target='_blank'>
           <p className='my-2.5 font-bold italic inline'>Next Js Pokemon</p>
