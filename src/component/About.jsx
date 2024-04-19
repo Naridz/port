@@ -9,7 +9,8 @@ const About = () => {
         <div className="flex justify-between m-28 max-[640px]:flex-col ">
           <div className="ms-28  max-[640px]:ms-2">
             <h2 className="text-6xl font-bold hover:animate-pulse">About me</h2>
-            <p className="mt-4 p-1 text-xl">Recent graduates with a passion for software development demonstrate a strong desire to continuously learn and expand their knowledge base to excel in this dynamic field.</p>
+            <p className="mt-4 p-1 text-xl max-[640px]:text-lg">I am highly motivated by the field of software developer and am eager to gain new experiences. 
+            In my personal time, I actively pursue expanding my skills by learning new technologies to propel my career growth.</p>
             <ul className="p-1 text-lg mt-3 p-5 max-[640px]:text-xs">
               <li className="p-1.5">
                 <span className="font-bold">Name : </span>
@@ -17,7 +18,7 @@ const About = () => {
               </li>
               <li className="p-1.5">
                 <span className="font-bold">Date of birth : </span>
-                <span>14 / 03 / 2001</span>
+                <span>14 / 03 / 2544</span>
               </li>
               <li className="p-1.5">
                 <span className="font-bold">E-mail : </span>
