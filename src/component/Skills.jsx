@@ -19,7 +19,7 @@ const Skills = () => {
             <FaNode className="w-16 h-16 hover:text-green-200" />
           </li>
           <li className="my-5 mx-5 sm:my-0">
-            <SiExpress className="w-16 h-16 hover:text-stone-950" />
+            <FaJava className="w-16 h-16 hover:text-red-600" />
           </li>
           <li className="my-5 mx-5 sm:my-0">
             <FaPython className="w-16 h-16 hover:text-sky-700" />
