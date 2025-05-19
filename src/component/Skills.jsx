@@ -4,7 +4,7 @@ import { SiExpress,SiMongodb,SiMysql} from "react-icons/si";
 const Skills = () => {
   return (
     <div id='section2' className="bg-neutral overflow-hidden text-center h-auto sm:h-64 ">
-        <h3 className="text-white font-bold mt-10 text-xl">My Skill Set</h3>
+        <h3 className="text-white font-bold mt-10 text-xl">My Skills</h3>
         <ul className="text-neutral-content mt-16 flex flex-col items-center sm:flex-row justify-center">
           <li className="my-5 mx-5 sm:my-0">
             <FaReact className="w-16 h-16 hover:text-sky-300 hover:animate-spin" />
