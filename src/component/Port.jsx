@@ -16,7 +16,7 @@ const Port = () => {
            width={300} height={300} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://nextjs-p-nine.vercel.app/' target='_blank'>
-          <p className='my-2.5 font-bold italic inline'>Next Js Pokemon</p>
+            <p className='my-2.5 font-bold italic inline'>Next Js Pokemon</p>
           </a>
         </div>
         <div className='mt-14'>
@@ -27,8 +27,19 @@ const Port = () => {
           </Tilt>
           <p className='my-2.5 font-bold italic inline'>Certificate</p>
         </div>
-        <div className='mt-14 content-center max-[640px]:my-20'>
-          <p className='text-xl italic'>
+        <div className='mt-14'>
+          <Tilt scale={1} transitionSpeed={2500} tiltReverse={true}>
+            <div className='rounded-2xl border-black border-2 weatherApp w-[300px] h-[200px] bg-cover bg-center'></div>
+          {/* <img src={Cpy} alt=" "
+           width={275} height={250} className='rounded-2xl border-black border-2'/> */}
+          </Tilt>
+          <a href='https://weather-tau-lac-80.vercel.app/' target='_blank'>
+            <p className='my-2.5 font-bold italic inline'>Weather App</p>
+          </a>
+        </div>
+            </div>
+        <div className='mt-20 content-center max-[640px]:my-20'>
+          <p className='text-xl text-center italic'>
             <span>C</span>
             <TypeAnimation
             sequence={[
@@ -41,7 +52,6 @@ const Port = () => {
               repeat={Infinity}/>
             </p>
         </div>
-      </div>
     </div>
     // <div className=" h-72 bg-secondary-content">
     //   <div className="ms-28 container mx-auto p-5">
