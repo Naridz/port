@@ -8,7 +8,8 @@ const Nav = () => {
     <nav className="z-10 navbar bg-neutral text-neutral-content sticky top-0">
       <div className="container mx-auto">
         <div className='navbar justify-between'>
-          <a href='' className="btn btn-ghost">
+          <a onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
+          className="btn btn-ghost cursor-pointer">
             <SiHomebridge className='w-10 h-10'/>
           </a>
           <ul className="flex max-[640px]:flex-col">

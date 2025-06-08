@@ -16,7 +16,7 @@ const Port = () => {
            width={300} height={300} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://nextjs-p-nine.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Next Js Pokemon</p>
+            <p className='my-2.5 font-bold italic inline'>Pokemon Api (Next Js)</p>
           </a>
         </div>
         <div className='mt-14'>
@@ -34,11 +34,11 @@ const Port = () => {
            width={275} height={250} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://weather-tau-lac-80.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Weather App</p>
+            <p className='my-2.5 font-bold italic inline'>Weather App Api (Nextjs + Typescript)</p>
           </a>
         </div>
             </div>
-        <div className='mt-20 content-center max-[640px]:my-20'>
+        {/* <div className='mt-20 content-center max-[640px]:my-20'>
           <p className='text-xl text-center italic'>
             <span>C</span>
             <TypeAnimation
@@ -51,7 +51,7 @@ const Port = () => {
               speed={50}
               repeat={Infinity}/>
             </p>
-        </div>
+        </div> */}
     </div>
     // <div className=" h-72 bg-secondary-content">
     //   <div className="ms-28 container mx-auto p-5">
