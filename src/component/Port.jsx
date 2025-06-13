@@ -20,7 +20,7 @@ const Port = () => {
           </a>
         </div>
         <div className='mt-14'>
-          <Tilt scale={1} transitionSpeed={2500} tiltReverse={true}>
+          <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <div className='rounded-2xl border-black border-2 cpy w-[300px] h-[200px] bg-cover bg-center'></div>
           {/* <img src={Cpy} alt=" "
            width={275} height={250} className='rounded-2xl border-black border-2'/> */}
@@ -28,7 +28,7 @@ const Port = () => {
           <p className='my-2.5 font-bold italic inline'>Certificate</p>
         </div>
         <div className='mt-14'>
-          <Tilt scale={1} transitionSpeed={2500} tiltReverse={true}>
+          <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <div className='rounded-2xl border-black border-2 weatherApp w-[300px] h-[200px] bg-cover bg-center'></div>
           {/* <img src={Cpy} alt=" "
            width={275} height={250} className='rounded-2xl border-black border-2'/> */}
