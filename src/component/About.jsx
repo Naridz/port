@@ -9,8 +9,9 @@ const About = () => {
         <div className="flex justify-between m-28 max-[640px]:flex-col ">
           <div className="ms-28  max-[640px]:ms-2">
             <h2 className="text-6xl font-bold hover:animate-pulse">About me</h2>
-            <p className="mt-4 p-1 text-xl max-[640px]:text-lg">Hello I have a interest in Frontend Development, with skills in React.js, Next.js, Node.js, Tailwind CSS.
-              Although I don’t have direct professional experience yet,  I am eager to develop my skills and I look forward to growing as a developer and contributing to a team in building projects.</p>
+            <p className="mt-4 p-1 text-xl max-[640px]:text-lg">Hello I have a interest in Software Development Frontend Fullstack, with skills in React.js, Next.js, Tailwind CSS, Node.js.
+              Although I donʼt have direct professional experience yet, 
+              I am eager to develop my skills and i am interesting to learn with new technologies and frameworks always.</p>
             <ul className="p-1 text-lg mt-3 p-5 max-[640px]:text-xs">
               <li className="p-1.5">
                 <span className="font-bold">Name : </span>
