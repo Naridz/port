@@ -32,7 +32,7 @@ const Port = () => {
             <div className='rounded-2xl border-black border-2 weatherApp w-[300px] h-[200px] bg-cover bg-center'></div>
           </Tilt>
           <a href='https://weather-tau-lac-80.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Weather App Api (Nextjs + Typescript)</p>
+            <p className='my-2.5 font-bold italic inline'>Weather App (Nextjs + Typescript)</p>
           </a>
         </div>
         <div className='mt-14'>
@@ -40,7 +40,7 @@ const Port = () => {
             <div className='rounded-2xl border-black border-2 meals w-[300px] h-[200px] bg-cover bg-center'></div>
           </Tilt>
           <a href='https://nuxt-meals-oetzqturb-naridzs-projects.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Meals Api (Nuxtjs + TailwindCss)</p>
+            <p className='my-2.5 font-bold italic inline'>Favourite Meals (Nuxtjs + TailwindCss)</p>
           </a>
         </div>
             </div>
