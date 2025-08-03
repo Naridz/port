@@ -6,7 +6,7 @@ import "../image/im.css"
 
 const Port = () => {
   return (
-    <div id='section3' className='container mx-auto h-[500px] max-[640px]:h-auto :my-[30px] overflow-hidden'>
+    <div id='section3' className='container mx-auto my-2 p-2 h-auto max-[640px]:h-auto :my-[30px] overflow-hidden'>
       <h3 className='mt-[45px] text-center text-3xl font-bold'>Portfolio</h3>
       <div className='grid grid-cols-3 max-[640px]:grid-cols-1 justify-items-center'>
         <div className='mt-14'>
@@ -30,11 +30,17 @@ const Port = () => {
         <div className='mt-14'>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <div className='rounded-2xl border-black border-2 weatherApp w-[300px] h-[200px] bg-cover bg-center'></div>
-          {/* <img src={Cpy} alt=" "
-           width={275} height={250} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://weather-tau-lac-80.vercel.app/' target='_blank'>
             <p className='my-2.5 font-bold italic inline'>Weather App Api (Nextjs + Typescript)</p>
+          </a>
+        </div>
+        <div className='mt-14'>
+          <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+            <div className='rounded-2xl border-black border-2 meals w-[300px] h-[200px] bg-cover bg-center'></div>
+          </Tilt>
+          <a href='https://nuxt-meals-oetzqturb-naridzs-projects.vercel.app/' target='_blank'>
+            <p className='my-2.5 font-bold italic inline'>Meals Api (Nuxtjs + TailwindCss)</p>
           </a>
         </div>
             </div>
