@@ -40,7 +40,7 @@ const Port = () => {
             <div className='rounded-2xl border-black border-2 meals w-[300px] h-[200px] bg-cover bg-center'></div>
           </Tilt>
           <a href='https://nuxt-meals-oetzqturb-naridzs-projects.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Favourite Meals (Nuxtjs + TailwindCss)</p>
+            <p className='my-2.5 font-bold italic inline'>Favourite Meals (Nuxt + Pinia)</p>
           </a>
         </div>
             </div>
