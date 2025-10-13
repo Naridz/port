@@ -15,7 +15,7 @@ const Education = () => {
             Bachelor of Science in Applied Mathematics.
           </h1>
           <IoDocumentText
-            className="mx-2 mb-1 inline-block w-6 h-6 hover:animate-bounce max-[640px]:mt-2.5"
+            className="mx-2 mb-1 inline-block w-6 h-6 cursor-pointer hover:animate-bounce max-[640px]:mt-2.5"
             onClick={() => document.getElementById("my_modal_2").showModal()}>
             Transcript
           </IoDocumentText> 
