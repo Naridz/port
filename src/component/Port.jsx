@@ -16,7 +16,7 @@ const Port = () => {
            width={300} height={300} className='rounded-2xl border-black border-2'/> */}
           </Tilt>
           <a href='https://nextjs-p-nine.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Pokemon Api (Next Js)</p>
+            <p className='my-2.5 font-bold italic inline'>Pokemon Api ( Next js )</p>
           </a>
         </div>
         <div className='mt-14'>
@@ -32,7 +32,7 @@ const Port = () => {
             <div className='rounded-2xl border-black border-2 weatherApp w-[300px] h-[200px] bg-cover bg-center'></div>
           </Tilt>
           <a href='https://weather-tau-lac-80.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Weather App (Nextjs + Typescript)</p>
+            <p className='my-2.5 font-bold italic inline'>Weather App ( Next js + Typescript )</p>
           </a>
         </div>
         <div className='mt-14'>
@@ -40,7 +40,15 @@ const Port = () => {
             <div className='rounded-2xl border-black border-2 meals w-[300px] h-[200px] bg-cover bg-center'></div>
           </Tilt>
           <a href='https://nuxt-meals-oetzqturb-naridzs-projects.vercel.app/' target='_blank'>
-            <p className='my-2.5 font-bold italic inline'>Favourite Meals (Nuxt + Pinia)</p>
+            <p className='my-2.5 font-bold italic inline'>Favourite Meals ( Nuxt + Pinia )</p>
+          </a>
+        </div>
+        <div className='mt-14'>
+          <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+            <div className='rounded-2xl border-black border-2 blogs w-[300px] h-[200px] bg-cover bg-center'></div>
+          </Tilt>
+          <a href='https://blog-dashboard-eta.vercel.app/' target='_blank'>
+            <p className='my-2.5 font-bold italic inline'>Blog Management ( Vue.js )</p>
           </a>
         </div>
             </div>
