@@ -51,6 +51,14 @@ const Port = () => {
             <p className='my-2.5 font-bold italic inline'>Blog Management ( Vue.js )</p>
           </a>
         </div>
+        <div className='mt-14'>
+          <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
+            <div className='rounded-2xl border-black border-2 shoppingApp w-[300px] h-[200px] bg-cover bg-center'></div>
+          </Tilt>
+          <a href='https://cosmic-faun-3e4ced.netlify.app/' target='_blank'>
+            <p className='my-2.5 font-bold italic inline'>Shopping App ( Flutter )</p>
+          </a>
+        </div>
             </div>
         {/* <div className='mt-20 content-center max-[640px]:my-20'>
           <p className='text-xl text-center italic'>
