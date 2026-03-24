@@ -5,11 +5,10 @@ import {
   FaVuejs,
   FaNode,
   FaSquareJs,
-  FaDatabase,
   FaPython,
   FaJava,
 } from 'react-icons/fa6';
-import { SiExpress, SiMongodb, SiMysql, SiTypescript, SiTailwindcss, SiNextdotjs, SiGit } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiMysql, SiTypescript, SiTailwindcss, SiNextdotjs, SiGit, SiFlutter } from 'react-icons/si';
 
 const Skills = () => {
   const ref = useRef(null);
@@ -29,7 +28,7 @@ const Skills = () => {
     { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500', bgColor: 'bg-green-500/10' },
     { name: 'Tailwind', icon: SiTailwindcss, color: 'text-cyan-300', bgColor: 'bg-cyan-300/10' },
     { name: 'Git', icon: SiGit, color: 'text-orange-500', bgColor: 'bg-orange-500/10' },
-    { name: 'Database', icon: FaDatabase, color: 'text-purple-400', bgColor: 'bg-purple-400/10' },
+    { name: 'Flutter', icon: SiFlutter, color: 'text-sky-400', bgColor: 'bg-sky-400/10' },
   ];
 
   const containerVariants = {
