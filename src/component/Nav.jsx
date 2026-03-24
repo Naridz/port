@@ -31,7 +31,7 @@ const Nav = () => {
   }, []);
 
   const navLinks = [
-    // { id: 'hero', label: 'Home' },
+    { id: 'hero', label: 'Home' },
     { id: 'section1', label: 'About' },
     { id: 'section2', label: 'Education' },
     { id: 'section3', label: 'Portfolio' },
